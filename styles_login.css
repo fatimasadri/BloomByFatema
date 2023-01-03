@@ -1,0 +1,28 @@
+  #footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #fbdff2;
+    color: black;
+    display:block;
+  }
+  .card {
+    background-color:#9a88a9;
+  }
+  .btn {
+    background-color:#52487f;
+  }
+    .nav-link {
+    color:black;
+    }
+    .nav-link:hover{
+   color:#52487f;
+ }
+
+.card-body{
+	background-color:#9a88a9;
+	
+}
+.card-title{
+	background-color:#9a88a9;
+	
+}

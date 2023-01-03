@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="styles_contactus.css" type="text/css">  <!-- Css sheet attached -->
+    <script type="text/javascript">
+  function alert()
+{
+   alert("Succesfully submitted! Thank you for contacting us, you will recieve a reply within 2-3 business days.")
+}
+  </script>
+  <center><img src="images/floral logo_2.png"  height="100" width="150" alt="LOGO"></center>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+   <nav class="navbar navbar-expand-lg" style="background-color:#fbdff2" aria-label="Tenth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="home.html"> Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link " href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link "   href="register.html">Sign up</a>
+            </li>
+            <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+            <li class="nav-item">
+            <a class="nav-link " href="home.html">Logout</a>
+            </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+  <div id="contactus">
+
+    <div class="card mt-5">
+      <div class="card-title text-center mt-3">
+        <h2 class="text-white">Contact us</h2>
+        <h4>Please fill in the following form to get in touch with us.</h4>
+    </div>
+<center><form class="pure-form pure-form-aligned" onsubmit="alert()">
+    <fieldset>
+        <div class="pure-control-group text-center">
+            <label for="aligned-name text-center">Full name</label>
+            <input type="text" name="name" id="aligned-name text-center" placeholder="name" />
+        </div>
+        <div class="pure-control-group text-center">
+            <label for="aligned-email text-center">Email Address</label>
+            <input type="email" name="email" id="aligned-email text-center" placeholder="Email Address" />
+        </div>
+        <div class="pure-control-group text-center">
+            <label for="aligned-foo text-center">Message</label>
+            <textarea type="text" name="msg" class="pure-input-1-2" placeholder="Leave us a message"></textarea>
+        </div>
+        <div class="pure-controls">
+            <button type="submit" class="button pure-button-primary" onclick="alert()" style="background-color:#52487f; color:white; font-weight:bold">Submit</button>
+        </div>
+    </fieldset>
+</form> </center>
+</div>
+<div class="py-5 text-center">
+  <h6>Please note:</h6>
+  <p class="lead">You can also contact us on the following number +97390876543.<br>
+You will recieve a reply within 2-3 business days</p>
+</div>
+</div>
+<br>
+
+              <footer id=footer>
+              <div>
+                  <h5>Bloom By Fatema</h5>
+                  <p><br><img src="images/email.png" style="height:3%; width:3%" alt="email"><a href="mailto:Bloom@gmail.com">Bloom@gmail.com</a>
+                  <br><img src="images/phone.png" style="height:3%; width:3%" alt="phone"> +97390876543
+                  <br><img src="images/insta.png" style="height:3%; width:3%" alt="instagram">@bloom.by.fatema
+                  <br><img src="images/fb.png" style="height:3%; width:3%" alt="fb">@bloom.by.fatema</p>
+                </div>
+                </footer>
+				</html>

@@ -1,0 +1,25 @@
+  #footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #fbdff2;
+    color: black;
+    display:block;
+  }
+  #contactus{
+    background-color:#b5f7d7;
+  }
+  .card {
+    background-color:#9a88a9;
+  }
+    .nav-link {
+    color:black;
+    }
+    .nav-link:hover{
+   color:#52487f;
+ }
+.card-title{
+	background-color:#9a88a9;
+}
+.pure-form{
+	background-color:#9a88a9;
+}

@@ -1,0 +1,17 @@
+   #footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #fbdff2;
+    color: black;
+    display:block;
+  }
+    .nav-link {
+    color:black;
+    }
+    .nav-link:hover{
+   color:#52487f;
+ }
+ #signupform{
+	background-color:#9a88a9;
+ }
+
